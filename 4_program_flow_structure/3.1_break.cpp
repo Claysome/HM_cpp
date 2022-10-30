@@ -27,12 +27,29 @@ int main() {
     // }
 
     // 2. loop
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     // if i = 5, break loop
+    //     if (i == 5)
+    //     {
+    //         break;
+    //     }
+    //     cout << i << endl;
+    // }
+
+    // 3. nesting
     for (int i = 0; i < 10; i++)
     {
-        // if i = 5, break loop
-        cout << i << endl;
+        for (int j = 0; j < 10; j ++)
+        {   
+            if (j == 5)
+            {
+                break;
+            }
+            cout << "* ";   // 5 * 10 *matrix
+        }
+        cout << endl;
     }
-    // 3. nesting
 
     system("pause");
 
